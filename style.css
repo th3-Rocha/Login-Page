@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@500&family=Staatliches&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    background-color:#f8c365; 
+}
+
+
+.head{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    right: 10%;
+    justify-content: space-between;
+}
+
+.left-navigate{
+    display: flex;
+
+
+    font-size: 150%;
+    gap: 30%;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.mid-navigate{
+    height: 40px;
+    display: flex;
+    font-size: 125%;
+    gap: 3%;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 100;
+}
+
+.right-navigate{
+    display: flex;
+    font-family: 'Mada', sans-serif;
+    
+}
+.stadiumShape{
+    display: inline-block;
+    width:100px;
+    height:50px;
+    background: rgb(0, 0, 0);
+    background-position:110;
+    border-radius: 9999px;
+    margin: 10px;
+    color: white;
+  }
+
+.stadiumShape2{
+    height:60px;
+    border:none;
+    box-shadow:4px 5px 4px rgba(0,0,0,0.25);
+    border-radius:20px;
+    font-weight:400;
+    font-size:24px;
+    color:red;
+}
