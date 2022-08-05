@@ -11,12 +11,14 @@
 html,
 body{
     background-color:#f8c365; 
+    
 }
 
 
 .head{
     display: flex;
     flex-direction: row;
+    align-items:center;
     position: absolute;
     top: 8%;
     left: 10%;
@@ -45,25 +47,86 @@ body{
 .right-navigate{
     display: flex;
     font-family: 'Mada', sans-serif;
+    font-size: 150%;
+}
+
+.stadiumShape{
+    background: rgb(0, 0, 0);
+    border-radius: 9999px;
+    color: white;
+    
+ }
+
+.art{
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 65%;
+    width: auto;
+    bottom: 0;
+}
+
+.element1{
+    display: inline-block;
+    height: 65px;
+    width: 230px;
+    border-radius: 10px;
+    position: absolute;
+    transform: rotate(-10deg);
+    bottom: 10%;
+    z-index: -1;
+    background-color: #FBD37A;
+}
+
+.elementrotate1{
+    position: absolute;
+    bottom: 100%;
+    transform: rotate(-20deg);
+}
+.elementrotate2{
+    position: absolute;
+    left: -10%;
+    bottom: 100%;
+    transform: rotate(-20deg);
+}
+
+
+.element2{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    height: 15%;
+    width: auto;
+}
+.element3{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    height: 15%;
+    transform: rotate(90deg);
+    width: auto;
+}
+
+.element4{
+    display: inline-block;
+    height: 80px;
+    width: 230px;
+    border-radius: 9999px;
+    position: absolute;
+    transform: rotate(-30deg);
+    bottom: 50%;
+    right: -100px;
+    z-index: -1;
+    background-color: #FBD37A;
     
 }
-.stadiumShape{
-    display: inline-block;
-    width:100px;
-    height:50px;
-    background: rgb(0, 0, 0);
-    background-position:110;
+.element41{
     border-radius: 9999px;
-    margin: 10px;
-    color: white;
-  }
-
-.stadiumShape2{
-    height:60px;
-    border:none;
-    box-shadow:4px 5px 4px rgba(0,0,0,0.25);
-    border-radius:20px;
-    font-weight:400;
-    font-size:24px;
-    color:red;
+    position: absolute;
+    bottom: 41%;
+    right: -130px;
+    
 }
