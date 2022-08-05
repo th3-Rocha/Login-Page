@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@500&family=Staatliches&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +21,7 @@ body{
     align-items:center;
     
     position: absolute;
-    top: 8%;
+    top: 5%;
     left: 10%;
     right: 10%;
     justify-content: space-between;
@@ -37,9 +38,9 @@ body{
 .mid-navigate{
     height: 40px;
     display: flex;
-    font-size: 125%;
+    font-size: 100%;
     gap: 3%;
-    font-family: 'Staatliches', sans-serif;
+    font-family: 'QuickSand', sans-serif;
     font-weight: 100;
 }
 
@@ -94,7 +95,7 @@ body{
     margin-right: auto;
     left: 0;
     right: 0;
-    height: 65%;
+    height: 60%;
     width: auto;
     bottom: 0;
 }
@@ -159,4 +160,42 @@ body{
     bottom: 41%;
     right: -130px;
     
+}
+
+.leftMidText{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 500%;
+    font-weight: 600;
+    font-family: 'QuickSand', sans-serif;
+}
+
+.skilss{
+    background: rgb(0, 0, 0);
+    border-radius: 1000px;
+    color: #f8c365;
+    padding: 0.01em 0.3em;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.rightMidText{
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    font-size: 150%;
+    font-weight: 100;
+    font-family: 'Mada', sans-serif;
+}
+
+.enroll{
+    background: rgba(0, 0, 0, 0);
+    padding: 0.5em 1.5em;
+    border-radius: 1000px;
+    position: absolute;
+    top: 40%;
+    right: 32%;
+    font-size: 125%;
+    font-weight: 600;
+    font-family: 'Mada', sans-serif;
 }
