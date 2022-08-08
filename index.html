@@ -25,7 +25,7 @@
 
             <nav class = "right-navigate">
                 <a class="login" style="align-self: center;">Log in</a>
-                <a class="stadiumShape" >Sing Up</a>
+                <a href="#abrirModal" class="stadiumShape" >Sing Up</a>
             </nav>
 
         </div>
@@ -37,6 +37,25 @@
             <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
           </svg> </button>
     </main>
+
+    <div id="abrirModal" class="modal">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <h2 class = "SingUpModal">SingUp</h2>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit">Login</button>
+            
+        </div>
+
+        <p></p>
+    </div>
+  
     <footer>
         <s class = "element4"></s>
         <s class = "element4 element41"></s>

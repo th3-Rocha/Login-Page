@@ -199,3 +199,40 @@ body{
     font-weight: 600;
     font-family: 'Mada', sans-serif;
 }
+
+.modal > div {
+   
+    background: #fff;
+  }
+
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 33%;
+    height: 66%;
+    border-radius: 2%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+.container {
+    position: absolute;
+    left: 10%;
+    justify-content: center;
+}
+.SingUpModal{
+    text-align: center;
+    font-weight: 800;
+    font-size: 160%;
+}
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
