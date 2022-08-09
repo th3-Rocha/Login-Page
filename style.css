@@ -201,15 +201,14 @@ body{
 }
 
 .modal > div {
-   
     background: #fff;
-  }
+}
 
 .modal {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 33%;
+    width: 28%;
     height: 66%;
     border-radius: 2%;
     transform: translate(-50%, -50%);
@@ -221,19 +220,41 @@ body{
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none;
-  }
+
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows:repeat(10,1fr);
+    padding: 1%;
+}
+.SingUpButton{
+    justify-self: center;
+    border-radius: 1000px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    height: 75%;
+    width: 66%;
+}
+
+
 .container {
-    position: absolute;
-    left: 10%;
-    justify-content: center;
+    padding: 20px;
+    text-decoration-color: white;
+}
+.singUpUser{
+    display: flex;
+    flex-direction: column;
+}
+.singUpUser input{
+    height: 100%;
 }
 .SingUpModal{
     text-align: center;
     font-weight: 800;
     font-size: 160%;
-    
+
 }
-  .modal:target {
+.modal:target {
     opacity: 1;
     pointer-events: auto;
-  }
+}
